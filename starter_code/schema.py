@@ -19,4 +19,3 @@ class UnifiedDocument(BaseModel):
     author: Optional[str] = None
     category: Optional[str] = None
     timestamp: Optional[str] = None
-    pass
