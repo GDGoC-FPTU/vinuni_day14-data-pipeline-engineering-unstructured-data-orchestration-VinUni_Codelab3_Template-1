@@ -10,4 +10,10 @@ class UnifiedDocument(BaseModel):
     TODO: Khai báo các trường với kiểu dữ liệu str ở dưới.
     """
     # Khai báo các trường ở đây...
-    pass
+    document_id: str = Field(..., description="Unique identifier for the document")
+    source_type: str = Field(..., description="Type of the source (e.g., 'news', 'social_media', 'research_paper')")
+    author: str = Field(..., description="Author of the document")
+    category: str = Field(..., description="Category of the document (e.g., 'politics', 'technology', 'health')")
+    content: str = Field(..., description="Content of the document")
+    timestamp: str = Field(..., description="Timestamp of when the document was created or published")
+    # pass
