@@ -15,7 +15,7 @@ def process_pdf_data(raw_json: dict) -> dict:
     # TODO: Trả về dictionary với các key: document_id, source_type, author, category, content, timestamp
     return {
         "document_id": raw_json.get("docId", ""),
-        "source_type": "pdf",
+        "source_type": "PDF",
         "author": raw_json.get("authorName", ""),
         "category": raw_json.get("docCategory", ""),
         "content": cleaned_content,
@@ -27,7 +27,7 @@ def process_video_data(raw_json: dict) -> dict:
     # Lưu ý các key của Video: video_id, creator_name, transcript, category, published_timestamp
     return {
         "document_id": raw_json.get("video_id", ""),
-        "source_type": "video",
+        "source_type": "Video",
         "author": raw_json.get("creator_name", ""),
         "category": raw_json.get("category", ""),
         "content": raw_json.get("transcript", ""),
