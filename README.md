@@ -3,6 +3,14 @@
 **Author**: Võ Tự Đức (VinUni AI Lab)
 **Topic**: Data Pipeline Engineering - Unstructured Data Orchestration
 
+## Team Members
+| Họ và Tên | Mã học viên | Email | Github Username |
+| :--- | :--- | :--- | :--- |
+| Phạm Thành Duy | 2A202600267 | phamthanhduyvbhp@gmail.com | [TDuy22](https://github.com/TDuy22) |
+| Dương Văn Hiệp | 2A202600052 | duonghiepthongminh@gmail.com | [imdhiep](https://github.com/imdhiep) |
+| Phạm Xuân Khang | 2A202600275 | phamxuankhang2004@gmail.com | [phamxuankhang](https://github.com/phamxuankhang) |
+| Nguyễn Văn Thức | 2A202600238 | thucpkbn@gmail.com | [vanthuc2503](https://github.com/vanthuc2503) |
+
 ## Overview
 In this lab, you will act as a 4-person Data Engineering team. Your goal is to ingest messy, unstructured data from two different sources (PDFs and Videos), normalize it, and unify it into a single, high-quality Knowledge Base for an AI Agent.
 
