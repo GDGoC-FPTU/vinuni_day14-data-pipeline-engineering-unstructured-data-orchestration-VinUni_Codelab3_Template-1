@@ -1,6 +1,15 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23701415&assignment_repo_type=AssignmentRepo)
 # Codelab 03: The Multi-Modal Minefield
 **Author**: Võ Tự Đức (VinUni AI Lab)
 **Topic**: Data Pipeline Engineering - Unstructured Data Orchestration
+
+## Team Members
+| Họ và Tên | Mã học viên | Email | Github Username |
+| :--- | :--- | :--- | :--- |
+| Phạm Thành Duy | 2A202600267 | phamthanhduyvbhp@gmail.com | [TDuy22](https://github.com/TDuy22) |
+| Dương Văn Hiệp | 2A202600052 | duonghiepthongminh@gmail.com | [imdhiep](https://github.com/imdhiep) |
+| Phạm Xuân Khang | 2A202600275 | phamxuankhang2004@gmail.com | [phamxuankhang](https://github.com/phamxuankhang) |
+| Nguyễn Văn Thức | 2A202600238 | thucpkbn@gmail.com | [vanthuc2503](https://github.com/vanthuc2503) |
 
 ## Overview
 In this lab, you will act as a 4-person Data Engineering team. Your goal is to ingest messy, unstructured data from two different sources (PDFs and Videos), normalize it, and unify it into a single, high-quality Knowledge Base for an AI Agent.
