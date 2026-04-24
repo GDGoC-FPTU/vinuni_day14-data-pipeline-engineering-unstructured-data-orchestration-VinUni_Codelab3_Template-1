@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23701297&assignment_repo_type=AssignmentRepo)
 # Codelab 03: The Multi-Modal Minefield
 **Author**: Võ Tự Đức (VinUni AI Lab)
 **Topic**: Data Pipeline Engineering - Unstructured Data Orchestration
@@ -32,3 +33,4 @@ Your team must divide into the following roles. Each role has specific files to 
 2. Read the `TODO` comments assigned to your specific role.
 3. Collaborate with your team. **The Builder cannot finish their job until the Architect finishes the Schema.**
 4. Run `python orchestrator.py` to test your pipeline.
+-----------------------------
