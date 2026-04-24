@@ -27,7 +27,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: 'Criteria 2: Observability'
-        setup-command: ''
+        setup-command: 'pip install pytest pydantic'
         command: pytest tests/test_lab.py -k "test_observability"
         timeout: 10
         max-score: 20
@@ -36,7 +36,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: 'Criteria 3: Harmonization'
-        setup-command: ''
+        setup-command: 'pip install pytest pydantic'
         command: pytest tests/test_lab.py -k "test_harmonization"
         timeout: 10
         max-score: 30
@@ -45,7 +45,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: 'Criteria 4: Final Result'
-        setup-command: ''
+        setup-command: 'pip install pytest pydantic'
         command: pytest tests/test_lab.py -k "test_final_output"
         timeout: 10
         max-score: 10
