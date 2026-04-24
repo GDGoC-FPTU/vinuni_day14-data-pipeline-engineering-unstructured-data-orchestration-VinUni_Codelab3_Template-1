@@ -14,12 +14,12 @@ def process_pdf_data(raw_json: dict) -> dict:
     # Bước 2: Map dữ liệu thô sang định dạng chuẩn của UnifiedDocument
     # TODO: Trả về dictionary với các key: document_id, source_type, author, category, content, timestamp
     return {
-        "document_id": raw_json.get("pdf_id", ""),
+        "document_id": raw_json.get("docId", ""),
         "source_type": "pdf",
-        "author": raw_json.get("author", ""),
-        "category": raw_json.get("category", ""),
+        "author": raw_json.get("authorName", ""),
+        "category": raw_json.get("docCategory", ""),
         "content": cleaned_content,
-        "timestamp": raw_json.get("extracted_timestamp", "")
+        "timestamp": raw_json.get("createdAt", "")
     }
 
 def process_video_data(raw_json: dict) -> dict:
