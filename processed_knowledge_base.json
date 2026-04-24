@@ -1,0 +1,18 @@
+[
+    {
+        "document_id": "pdf-001",
+        "source_type": "PDF",
+        "author": "Dr. AI Researcher",
+        "category": "Machine Learning",
+        "content": "1. Introduction to Vector DBs.\nThe quick brown fox jumps over the vector... \u00a9 2026.",
+        "timestamp": "2026-04-21T09:00:00Z"
+    },
+    {
+        "document_id": "vid_993",
+        "source_type": "Video",
+        "author": "Data Guru",
+        "category": "ML",
+        "content": "Hello and welcome. Today we discuss Data Engineering. [Music playing] It's crucial.",
+        "timestamp": "2026-04-20T14:30:00"
+    }
+]
